@@ -6,14 +6,14 @@ Language code: ur.
 
 ### Script and Alignment
 
-* Always use Arabic script (Nastaliq) for Urdu text. Never use Roman Urdu (Latin transliteration).
-* Urdu is right-to-left (RTL). Wrap the translated body in `<div dir="rtl" style="text-align: right;">...</div>` so headings, paragraphs, and lists render right-aligned. Do not leave any paragraph left-aligned.
+* Use Arabic script (Nastaliq) for Urdu text.
+* Wrap translated body in `<div dir="rtl" style="text-align: right;">...</div>` so headings, paragraphs, and lists render right-aligned. 
 * Where an English/Latin-script term sits directly next to Urdu text, add one extra space around it, so the two scripts don't visually run together.
 
 ### Punctuation
 
-* Always use the Urdu full stop `۔` instead of the English period `.` at the end of sentences (ellipsis not included).
-* Bold colons in translated prose (`:` → `**:**`) so they're easier to spot next to Arabic script, where a plain colon can get visually lost.
+* Always use the Urdu full stop `۔` instead of the English period `.` at the end of sentences.
+* Bold colons in translated prose (`:` → `**:**`) for readability.
 * Do not bold colons inside code blocks, inline code, paths, URLs, or anything wrapped in backticks.
 
 ### Ellipsis
@@ -41,9 +41,6 @@ Result (Urdu):
 
 * This spacing rule does not apply inside URLs, code blocks, or code snippets — never add or remove spaces there.
 
-### Quotes
-* Do not convert or restyle quotes inside code blocks, inline code, paths, URLs, or anything wrapped in backticks. Only adjust quote style in translated prose.
-
 ### Technical Terms
 
 * Do not translate everything. Keep common programming terms in English as-is (e.g. framework, endpoint, plug-in, payload).
@@ -56,4 +53,5 @@ Result (Urdu):
 
 * Proper nouns / product names: FastAPI, Pydantic, SQLModel, PostgreSQL, React, TypeScript, Docker Compose, Traefik, Pytest, Playwright, GitHub Actions, etc.
 * Anything inside backticks, code blocks, file paths, and URLs.
+* * Do not convert or restyle quotes inside code blocks, inline code, paths, URLs, or anything wrapped in backticks. Only adjust quote style in translated prose.
 * Anchor tags in headings (`{ #anchor-id }`).
